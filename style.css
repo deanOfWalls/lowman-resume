@@ -1,76 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: transparent;
 }
 
-header, footer {
-    display: none; /* Hide GitHub Pages header and footer */
+.download-button {
+    margin: 5px 0;
+    background-color: transparent;
 }
 
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #222;
+.loading-message {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
 }
 
-h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #444;
+iframe {
+    width: 100%;
+    height: calc(100vh - 70px);
+    border: none;
+    display: none;
 }
 
+button {
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media print {
+    .download-button {
+        display: none;
+    }
+    iframe {
+        display: none;
+    }
+    .print-link {
+        display: block;
+    }
+}
+
+.print-link {
+    display: none;
+}
+
+/* General list styles */
 ul {
-    padding-left: 20px;
+    margin: 0;
+    padding-left: 15px; /* Standard indent for lists */
 }
 
 li {
-    margin-bottom: 5px; /* Standard spacing between list items */
-    line-height: 1.4; /* Comfortable line height for readability */
+    margin-bottom: 2px; /* Reduced spacing between list items */
+    line-height: 1.1; /* Tightened line spacing */
 }
 
-i {
-    font-style: italic;
-    display: inline-block; /* Ensure italicized text behaves consistently */
-    margin-bottom: 2px; /* Reduced spacing after italicized text */
+li i {
+    display: inline; /* Ensure italicized text stays inline */
+    line-height: 1; /* Tightest possible spacing for italicized text */
+    margin-bottom: 0; /* Completely removed space after italicized text */
 }
 
-i + ul {
-    margin-top: -3px; /* Pull bullet points closer to italicized text */
+/* Adjust spacing for italicized text and following bullet points */
+.education-section li i + ul,
+.professional-experience li i + ul,
+.additional-experience li i + ul {
+    margin-top: -4px; /* Aggressive reduction between italicized text and bullet points */
 }
 
-a {
-    color: #007BFF;
-    text-decoration: none;
+/* Wrapper and main content styles */
+.wrapper {
+    background-color: white !important;
+    padding: 5px;
 }
 
-a:hover {
-    text-decoration: underline;
+main, .main, .content, .post-content {
+    background-color: white;
+    padding: 5px;
 }
 
-/* Section-specific styling */
-.professional-experience, .additional-experience, .education-section {
-    margin-top: 20px;
-    padding: 15px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+.header, ::before, header h1, footer {
+    font-family: 'Roboto', sans-serif;
 }
 
-.professional-experience h2, .additional-experience h3, .education-section h2 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
-    color: #333;
+header, footer {
+    display: none;
 }
 
-.professional-experience ul, .additional-experience ul, .education-section ul {
-    padding-left: 15px; /* Adjusted padding for bullet lists */
+.content-wrapper {
+    background-color: white;
+    padding: 5px;
 }
 
-.professional-experience li, .additional-experience li, .education-section li {
-    margin-bottom: 5px; /* Uniform spacing between list items */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 3px; /* Small but consistent spacing after headers */
+}
+
+.markdown-body .post-content a {
+    color: blue;
+}
+
+@media screen {
+    body {
+        transform: scale(1.5);
+        transform-origin: top center;
+        width: calc(100% / 1.5);
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+    .print-only {
+        display: none;
+    }
+}
+
+:root {
+    --base-indent: 15px;
+}
+
+.education-section ul,
+.professional-experience ul,
+.additional-experience ul {
+    padding-left: 12px; /* Consistent indent for list sections */
+}
+
+.education-section li,
+.professional-experience li,
+.additional-experience li {
+    margin-bottom: 2px; /* Reduced and consistent spacing across sections */
+}
+
+.education-section li i,
+.professional-experience li i,
+.additional-experience li i {
+    display: inline;
+    line-height: 1; /* Compact line height for italicized text */
+    margin-bottom: 0; /* Completely removed spacing after italicized text */
+}
+
+.education-section li i + ul,
+.professional-experience li i + ul,
+.additional-experience li i + ul {
+    margin-top: -4px; /* Aggressive reduction in spacing after italicized text */
+}
+
+.education-section {
+    margin-top: 5px; /* Smaller margin above section */
+}
+
+.professional-experience {
+    margin-top: 5px; /* Smaller margin above section */
+}
+
+.additional-experience {
+    margin-top: 5px; /* Smaller margin above section */
 }
