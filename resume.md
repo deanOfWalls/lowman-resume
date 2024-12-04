@@ -1,6 +1,7 @@
 <div class="header-bar"></div>
 <link rel="stylesheet" type="text/css" media="all" href="./style.css" />
 
+
 # David Lowman  
 Wilmington, DE • 302-632-9204 • [D.low21@live.com](mailto:D.low21@live.com)  
 
