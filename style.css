@@ -1,98 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
-    margin: 10px auto;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: transparent;
-}
-
-.download-button {
-    margin: 5px 0;
-    background-color: transparent;
-}
-
-.loading-message {
-    font-size: 16px;
-    color: #555;
-    margin-top: 5px;
-}
-
-iframe {
-    width: 100%;
-    height: calc(100vh - 70px);
-    border: none;
-    display: none;
-}
-
-button {
-    padding: 5px 10px;
-    font-size: 12px;
-    cursor: pointer;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 3px;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-@media print {
-    .download-button {
-        display: none;
-    }
-    iframe {
-        display: none;
-    }
-    .print-link {
-        display: block;
-    }
-}
-
-.print-link {
-    display: none;
-}
-
-/* General list styles */
-ul {
     margin: 0;
-    padding-left: 15px; /* Standard indent for lists */
+    padding: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    display: none; /* Hide default GitHub Pages header and footer */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+p, ul, li {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+ul {
+    padding-left: 20px;
 }
 
 li {
-    margin-bottom: 4px; /* Standard spacing between list items */
-    line-height: 1.2; /* Comfortable line spacing for readability */
+    margin-bottom: 5px;
 }
 
-/* Adjust spacing for italicized text and the following bullet points */
-.additional-experience i {
-    line-height: 1; /* Tight spacing for italicized text */
-    margin-bottom: 2px; /* Slightly reduced spacing after italicized text */
+i {
+    font-style: italic;
 }
 
-.additional-experience i + ul {
-    margin-top: -3px; /* Pull bullet points closer to italicized text */
+a {
+    color: #007BFF;
+    text-decoration: none;
 }
 
-.education-section i {
-    line-height: 1; /* Tight spacing for italicized text */
-    margin-bottom: 2px; /* Minimal spacing after italicized text */
+a:hover {
+    text-decoration: underline;
 }
 
-.education-section i + ul {
-    margin-top: -3px; /* Reduce spacing between italicized text and bullet points */
+/* Specific Section Styling */
+.professional-experience, .additional-experience, .education-section {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
 }
 
-/* Consistent section styling */
-.education-section,
-.professional-experience,
-.additional-experience {
-    margin-top: 10px; /* Consistent spacing above sections */
+.professional-experience h2, .additional-experience h3, .education-section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.professional-experience ul, .additional-experience ul, .education-section ul {
+    padding-left: 15px;
+}
+
+.professional-experience li, .additional-experience li, .education-section li {
+    margin-bottom: 3px;
+}
+
+footer {
+    font-size: 0.8em;
+    color: #999;
+    text-align: center;
+    margin-top: 40px;
 }
