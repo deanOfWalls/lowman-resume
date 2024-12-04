@@ -4,12 +4,12 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 20px;
-    color: #333;
     background-color: #f9f9f9;
+    color: #333;
 }
 
 header, footer {
-    display: none; /* Hide default GitHub Pages header and footer */
+    display: none; /* Hide GitHub Pages header and footer */
 }
 
 h1 {
@@ -24,22 +24,23 @@ h2, h3 {
     color: #444;
 }
 
-p, ul, li {
-    font-size: 1em;
-    line-height: 1.6;
-    margin: 5px 0;
-}
-
 ul {
     padding-left: 20px;
 }
 
 li {
-    margin-bottom: 5px;
+    margin-bottom: 5px; /* Standard spacing between list items */
+    line-height: 1.4; /* Comfortable line height for readability */
 }
 
 i {
     font-style: italic;
+    display: inline-block; /* Ensure italicized text behaves consistently */
+    margin-bottom: 2px; /* Reduced spacing after italicized text */
+}
+
+i + ul {
+    margin-top: -3px; /* Pull bullet points closer to italicized text */
 }
 
 a {
@@ -51,31 +52,25 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Specific Section Styling */
+/* Section-specific styling */
 .professional-experience, .additional-experience, .education-section {
     margin-top: 20px;
     padding: 15px;
+    background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #fff;
 }
 
 .professional-experience h2, .additional-experience h3, .education-section h2 {
     margin-bottom: 10px;
+    font-size: 1.5em;
     color: #333;
 }
 
 .professional-experience ul, .additional-experience ul, .education-section ul {
-    padding-left: 15px;
+    padding-left: 15px; /* Adjusted padding for bullet lists */
 }
 
 .professional-experience li, .additional-experience li, .education-section li {
-    margin-bottom: 3px;
-}
-
-footer {
-    font-size: 0.8em;
-    color: #999;
-    text-align: center;
-    margin-top: 40px;
+    margin-bottom: 5px; /* Uniform spacing between list items */
 }
