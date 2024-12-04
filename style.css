@@ -63,23 +63,23 @@ button:hover {
 /* General list styles */
 ul {
     margin: 0;
-    padding-left: 20px; /* Standard indent for list items */
+    padding-left: 20px;
 }
 
 li {
-    margin-bottom: 2px; /* Compact spacing between items */
-    line-height: 1.1; /* Further reduced spacing between text lines */
+    margin-bottom: 1px; /* Further reduce spacing between list items */
+    line-height: 1; /* Compact spacing between text lines */
 }
 
 li i {
     display: inline; /* Ensure italicized text does not create extra spacing */
-    line-height: 1; /* Tighten spacing after italicized text */
-    margin-bottom: 2px; /* Slightly reduce space after italicized text */
+    line-height: 1; /* Tighten spacing for italicized text */
+    margin-bottom: 1px; /* Slightly reduce space after italicized text */
 }
 
 /* Adjust spacing for italicized text and following bullet points */
 .education-section li i + ul {
-    margin-top: -5px; /* Reduce space between italicized text and bullet points */
+    margin-top: -6px; /* Further reduce space between italicized text and bullet points */
 }
 
 /* Wrapper and main content styles */
@@ -133,21 +133,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .education-section ul {
-    padding-left: 15px; /* Align with section header */
+    padding-left: 15px;
 }
 
 .education-section li {
-    margin-bottom: 2px; /* Reduced spacing between items */
+    margin-bottom: 1px; /* Reduced spacing between items */
 }
 
 .education-section li i {
-    display: inline; /* Fix spacing for italicized text */
-    line-height: 1; /* Tighten spacing after italicized text */
-    margin-bottom: 2px; /* Reduce spacing after italicized text */
+    display: inline;
+    line-height: 1; /* Tighten spacing for italicized text */
+    margin-bottom: 1px; /* Further reduced spacing after italicized text */
 }
 
 .education-section li i + ul {
-    margin-top: -5px; /* Tighten space between italicized text and subsequent bullet points */
+    margin-top: -6px; /* Reduce spacing between italicized text and bullet points */
 }
 
 .education-section {
