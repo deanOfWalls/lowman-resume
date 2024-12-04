@@ -43,3 +43,11 @@ Proactive professional with extensive experience in managing projects, leading t
 
 - **High School Diploma**  
   Polytech High School, *2004*
+
+- **OSHA 10-hour Safety**
+  OSHA, *2019*
+
+- **State of Delaware Journeyman License**
+  State of Delaware, *2024-2026*
+
+[View Certifications](certifications.pdf)
