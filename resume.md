@@ -38,19 +38,19 @@ Proactive professional with extensive experience in managing projects, leading t
 
 ## Education and Certifications
 
-- **Apprenticeship**: Electrical Work  
-  Polytech Adult Education - Woodside, DE, *2007*  
+- **Apprenticeship in Electrical Work**  
+  *Polytech Adult Education, Woodside, DE (2007)*  
 
-- **Technical Diploma**: Electrical Construction  
-  Polytech High School - Woodside, DE, *2004*  
+- **Technical Diploma in Electrical Construction**  
+  *Polytech High School, Woodside, DE (2004)*  
 
 - **High School Diploma**  
-  Polytech High School, *2004*
+  *Polytech High School, Woodside, DE (2004)*  
 
-- **OSHA 10-hour Safety**
-  OSHA, *2019*
+- **OSHA 10-Hour Safety Certification**  
+  *Occupational Safety and Health Administration (2019)*  
 
-- **State of Delaware Journeyman License**
-  State of Delaware, *2024-2026*
+- **State of Delaware Journeyman License**  
+  *State of Delaware (2024–2026)*  
 
 [View Certifications](certifications.pdf)
