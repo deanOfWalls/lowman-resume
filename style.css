@@ -67,18 +67,18 @@ ul {
 }
 
 li {
-    margin-bottom: 2px; /* Reduced spacing between list items */
-    line-height: 1.1; /* Tightened line spacing */
+    margin-bottom: 6px; /* Increased spacing between list items */
+    line-height: 1.3; /* Improved readability with slightly relaxed line spacing */
 }
 
 li i {
     display: inline; /* Ensure italicized text stays inline */
-    line-height: 1; /* Tightest possible spacing for italicized text */
-    margin-bottom: 0; /* Completely removed space after italicized text */
+    line-height: 1; /* Compact line height for italicized text */
+    margin-bottom: 0; /* No additional spacing after italicized text */
 }
 
 li i + ul {
-    margin-top: -4px; /* Aggressive reduction between italicized text and bullet points */
+    margin-top: -2px; /* Slight reduction in spacing between italicized text and bullet points */
 }
 
 /* Wrapper and main content styles */
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 .education-section li,
 .professional-experience li,
 .additional-experience li {
-    margin-bottom: 2px; /* Reduced and consistent spacing across sections */
+    margin-bottom: 6px; /* Increased spacing for better readability */
 }
 
 .education-section li i,
@@ -148,13 +148,13 @@ h1, h2, h3, h4, h5, h6 {
 .additional-experience li i {
     display: inline;
     line-height: 1; /* Compact line height for italicized text */
-    margin-bottom: 0; /* Completely removed spacing after italicized text */
+    margin-bottom: 0; /* No additional spacing after italicized text */
 }
 
 .education-section li i + ul,
 .professional-experience li i + ul,
 .additional-experience li i + ul {
-    margin-top: -4px; /* Aggressive reduction in spacing after italicized text */
+    margin-top: -2px; /* Slight reduction in spacing between italicized text and bullet points */
 }
 
 .education-section {
