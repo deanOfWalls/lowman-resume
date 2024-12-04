@@ -60,20 +60,18 @@ button:hover {
     display: none;
 }
 
-ul, li {
-    margin: 0; /* Eliminate unnecessary margins */
-    padding: 0; /* Remove default padding */
-    list-style-position: inside;
-}
-
+/* General list styles */
 ul {
-    margin-bottom: 5px; /* Reduced spacing between list items */
+    margin: 0;
+    padding-left: 20px; /* Standard indent for list items */
 }
 
 li {
-    margin-bottom: 3px; /* Further reduce spacing after each item */
+    margin-bottom: 2px; /* Compact spacing between items */
+    line-height: 1.4; /* Adjust for better readability */
 }
 
+/* Wrapper and main content styles */
 .wrapper {
     background-color: white !important;
     padding: 5px;
@@ -123,10 +121,10 @@ h1, h2, h3, h4, h5, h6 {
     --base-indent: 15px;
 }
 
-.education-section li {
-    margin-bottom: 2px; /* Reduced padding between list items */
+.education-section ul {
+    padding-left: 15px; /* Align with section header */
 }
 
-.education-section {
-    margin-top: 10px;
+.education-section li {
+    margin-bottom: 5px; /* Standard spacing for clarity */
 }
