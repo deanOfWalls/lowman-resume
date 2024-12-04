@@ -68,7 +68,12 @@ ul {
 
 li {
     margin-bottom: 2px; /* Compact spacing between items */
-    line-height: 1.4; /* Adjust for better readability */
+    line-height: 1.2; /* Reduced spacing between text lines */
+}
+
+li i {
+    display: inline; /* Ensure italicized text does not create extra spacing */
+    line-height: 1; /* Tighten spacing after italicized text */
 }
 
 /* Wrapper and main content styles */
@@ -126,5 +131,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .education-section li {
-    margin-bottom: 5px; /* Standard spacing for clarity */
+    margin-bottom: 2px; /* Reduced spacing between items */
+}
+
+.education-section li i {
+    display: inline; /* Fix spacing for italicized text */
+    line-height: 1; /* Tighten spacing after italicized text */
+}
+
+.education-section {
+    margin-top: 10px;
 }
