@@ -60,114 +60,36 @@ button:hover {
     display: none;
 }
 
-/* General list styles */
-ul {
-    margin: 0;
-    padding-left: 15px; /* Standard indent for lists */
+/* Professional Experience Section */
+.professional-experience li {
+    margin-bottom: 3px; /* Moderate and consistent spacing between list items */
+    line-height: 1.2; /* Ensure readability */
 }
 
-li {
-    margin-bottom: 2px; /* Reduced spacing between list items */
-    line-height: 1.1; /* Tightened line spacing */
+/* Additional Experience Section */
+.additional-experience i {
+    line-height: 1; /* Tight spacing for italicized text */
+    margin-bottom: 2px; /* Minimal space after italicized text */
 }
 
-li i {
-    display: inline; /* Ensure italicized text stays inline */
-    line-height: 1; /* Tightest possible spacing for italicized text */
-    margin-bottom: 0; /* Completely removed space after italicized text */
-}
-
-/* Adjust spacing for italicized text and following bullet points */
-.education-section li i + ul,
-.professional-experience li i + ul,
-.additional-experience li i + ul {
-    margin-top: -4px; /* Aggressive reduction between italicized text and bullet points */
-}
-
-/* Wrapper and main content styles */
-.wrapper {
-    background-color: white !important;
-    padding: 5px;
-}
-
-main, .main, .content, .post-content {
-    background-color: white;
-    padding: 5px;
-}
-
-.header, ::before, header h1, footer {
-    font-family: 'Roboto', sans-serif;
-}
-
-header, footer {
-    display: none;
-}
-
-.content-wrapper {
-    background-color: white;
-    padding: 5px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 3px; /* Small but consistent spacing after headers */
-}
-
-.markdown-body .post-content a {
-    color: blue;
-}
-
-@media screen {
-    body {
-        transform: scale(1.5);
-        transform-origin: top center;
-        width: calc(100% / 1.5);
-        margin: 0 auto;
-        overflow-x: hidden;
-    }
-
-    .print-only {
-        display: none;
-    }
-}
-
-:root {
-    --base-indent: 15px;
-}
-
-.education-section ul,
-.professional-experience ul,
-.additional-experience ul {
-    padding-left: 12px; /* Consistent indent for list sections */
-}
-
-.education-section li,
-.professional-experience li,
 .additional-experience li {
-    margin-bottom: 2px; /* Reduced and consistent spacing across sections */
+    margin-top: -2px; /* Pull bullet points closer to italicized text */
 }
 
-.education-section li i,
-.professional-experience li i,
-.additional-experience li i {
-    display: inline;
-    line-height: 1; /* Compact line height for italicized text */
-    margin-bottom: 0; /* Completely removed spacing after italicized text */
+/* Education Section */
+.education-section i {
+    line-height: 1; /* Tight spacing for italicized text */
+    margin-bottom: 2px; /* Minimal space after italicized text */
 }
 
-.education-section li i + ul,
-.professional-experience li i + ul,
-.additional-experience li i + ul {
-    margin-top: -4px; /* Aggressive reduction in spacing after italicized text */
+.education-section li {
+    margin-bottom: 3px; /* Consistent spacing between items */
+}
+
+.education-section i + ul {
+    margin-top: -3px; /* Reduce space between italicized text and bullet points */
 }
 
 .education-section {
-    margin-top: 5px; /* Smaller margin above section */
-}
-
-.professional-experience {
-    margin-top: 5px; /* Smaller margin above section */
-}
-
-.additional-experience {
-    margin-top: 5px; /* Smaller margin above section */
+    margin-top: 5px; /* Consistent margin above the section */
 }

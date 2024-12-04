@@ -12,6 +12,7 @@ Proactive professional with extensive experience in managing projects, leading t
 
 ---
 
+<div class="professional-experience">
 ## Professional Experience
 
 ### Journeyman Electrician  
@@ -24,18 +25,22 @@ Proactive professional with extensive experience in managing projects, leading t
 - **Independent Problem-Solving**: Diagnosed and resolved issues on-site, often with minimal supervision, ensuring client satisfaction and adherence to project specifications.
 - **Communication and Client Relations**: Regularly liaised with clients and supervisors to assess project needs, provide updates, and align on expectations.
 - **Inventory and Cost Management**: Monitored and managed inventory levels, calculated material needs, and tracked project expenditures to stay within budget.
+</div>
 
 ---
 
+<div class="additional-experience">
 ### Additional Experience
 
 **Warehouse Worker**  
 *Amazon PHL7 – Middletown, DE (2013 - 2014)*  
 - Ensured accurate inventory management and communication of discrepancies.
 - Supported logistics by efficiently loading, unloading, and inspecting shipments for quality.
+</div>
 
 ---
 
+<div class="education-section">
 ## Education and Certifications
 
 - **Apprenticeship in Electrical Work**  
@@ -52,5 +57,6 @@ Proactive professional with extensive experience in managing projects, leading t
 
 - **State of Delaware Journeyman License**  
   *State of Delaware (2024–2026)*  
+</div>
 
 [View Certifications](certifications.pdf)
