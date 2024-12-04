@@ -63,23 +63,23 @@ button:hover {
 /* General list styles */
 ul {
     margin: 0;
-    padding-left: 20px;
+    padding-left: 18px; /* Slightly reduced indentation for bullet points */
 }
 
 li {
-    margin-bottom: 1px; /* Further reduce spacing between list items */
-    line-height: 1; /* Compact spacing between text lines */
+    margin-bottom: 0.5px; /* Minimal spacing between list items */
+    line-height: 1; /* Very compact spacing between text lines */
 }
 
 li i {
-    display: inline; /* Ensure italicized text does not create extra spacing */
-    line-height: 1; /* Tighten spacing for italicized text */
-    margin-bottom: 1px; /* Slightly reduce space after italicized text */
+    display: inline; /* Keep italicized text inline to prevent line breaks */
+    line-height: 1; /* Compact spacing for italicized text */
+    margin-bottom: 0.5px; /* Minimized spacing after italicized text */
 }
 
 /* Adjust spacing for italicized text and following bullet points */
 .education-section li i + ul {
-    margin-top: -6px; /* Further reduce space between italicized text and bullet points */
+    margin-top: -7px; /* Further reduce space between italicized text and bullet points */
 }
 
 /* Wrapper and main content styles */
@@ -107,7 +107,7 @@ header, footer {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 2px;
+    margin-bottom: 1px; /* Minimal spacing after headers */
 }
 
 .markdown-body .post-content a {
@@ -137,19 +137,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .education-section li {
-    margin-bottom: 1px; /* Reduced spacing between items */
+    margin-bottom: 0.5px; /* Minimal spacing between items */
 }
 
 .education-section li i {
     display: inline;
-    line-height: 1; /* Tighten spacing for italicized text */
-    margin-bottom: 1px; /* Further reduced spacing after italicized text */
+    line-height: 1; /* Compact spacing for italicized text */
+    margin-bottom: 0.5px; /* Almost no spacing after italicized text */
 }
 
 .education-section li i + ul {
-    margin-top: -6px; /* Reduce spacing between italicized text and bullet points */
+    margin-top: -7px; /* Tightly pull bullet points closer to italicized text */
 }
 
 .education-section {
-    margin-top: 10px;
+    margin-top: 8px; /* Slightly reduced margin above section */
 }
