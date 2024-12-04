@@ -60,36 +60,39 @@ button:hover {
     display: none;
 }
 
-/* Professional Experience Section */
-.professional-experience li {
-    margin-bottom: 3px; /* Moderate and consistent spacing between list items */
-    line-height: 1.2; /* Ensure readability */
+/* General list styles */
+ul {
+    margin: 0;
+    padding-left: 15px; /* Standard indent for lists */
 }
 
-/* Additional Experience Section */
+li {
+    margin-bottom: 4px; /* Standard spacing between list items */
+    line-height: 1.2; /* Comfortable line spacing for readability */
+}
+
+/* Adjust spacing for italicized text and the following bullet points */
 .additional-experience i {
     line-height: 1; /* Tight spacing for italicized text */
-    margin-bottom: 2px; /* Minimal space after italicized text */
+    margin-bottom: 2px; /* Slightly reduced spacing after italicized text */
 }
 
-.additional-experience li {
-    margin-top: -2px; /* Pull bullet points closer to italicized text */
+.additional-experience i + ul {
+    margin-top: -3px; /* Pull bullet points closer to italicized text */
 }
 
-/* Education Section */
 .education-section i {
     line-height: 1; /* Tight spacing for italicized text */
-    margin-bottom: 2px; /* Minimal space after italicized text */
-}
-
-.education-section li {
-    margin-bottom: 3px; /* Consistent spacing between items */
+    margin-bottom: 2px; /* Minimal spacing after italicized text */
 }
 
 .education-section i + ul {
-    margin-top: -3px; /* Reduce space between italicized text and bullet points */
+    margin-top: -3px; /* Reduce spacing between italicized text and bullet points */
 }
 
-.education-section {
-    margin-top: 5px; /* Consistent margin above the section */
+/* Consistent section styling */
+.education-section,
+.professional-experience,
+.additional-experience {
+    margin-top: 10px; /* Consistent spacing above sections */
 }
