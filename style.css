@@ -1,19 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
-
-code, pre {
-    font-family: 'Sora', sans-serif;
-    color: #2f68e1;
-    font-size: 12px;
-    overflow-x: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
-    font-family: 'Sora', sans-serif;
-    background-color: rgb(67, 70, 84);
-    line-height: 1.1 !important; /* Adjust line height for better readability */
-    font-size: 12px; /* Slightly reduce font size */
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+}
+
+.download-button {
+    margin: 5px 0; /* Reduced margin */
+    background-color: transparent;
+}
+
+.loading-message {
+    font-size: 16px; /* Slightly smaller font size */
+    color: #555;
+    margin-top: 10px; /* Reduced margin */
+}
+
+iframe {
+    width: 100%;
+    height: calc(100vh - 80px); /* Reduced height offset */
+    border: none;
+    display: none; /* Hide initially until loaded */
+}
+
+button {
+    padding: 8px 16px; /* Reduced padding */
+    font-size: 14px; /* Slightly smaller font */
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media print {
+    .download-button {
+        display: none;
+    }
+    iframe {
+        display: none;
+    }
+    .print-link {
+        display: block;
+    }
+}
+
+.print-link {
+    display: none;
+}
+
+/* Styles specific to resume content */
+code, pre {
+    font-family: 'Roboto', sans-serif;
+    color: #2f68e1;
+    font-size: 11px; /* Reduced font size */
+    overflow-x: auto;
 }
 
 ul li a {
@@ -22,16 +74,16 @@ ul li a {
 
 .wrapper {
     background-color: white !important;
-    padding: 2px;
+    padding: 1px; /* Further reduced padding */
 }
 
 main, .main, .content, .post-content {
     background-color: white;
-    padding: 3px; /* Reduce padding */
+    padding: 1px; /* Further reduced padding */
 }
 
 .header, ::before, header h1, footer {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header, footer {
@@ -40,23 +92,11 @@ header, footer {
 
 .content-wrapper {
     background-color: white;
-    padding: 3px; /* Reduce padding */
+    padding: 1px; /* Further reduced padding */
 }
 
 .markdown-body .post-content a {
     color: blue;
-}
-
-@media print {
-    .pagebreak {
-        display: block;
-        page-break-before: always;
-        page-break-after: always;
-    }
-
-    .print-only {
-        display: block;
-    }
 }
 
 @media screen {
@@ -74,53 +114,21 @@ header, footer {
 }
 
 :root {
-    --base-indent: 20px;
-}
-
-h4 {
-    margin-left: calc(var(--base-indent) * 1);
-}
-
-h5 {
-    margin-left: calc(var(--base-indent) * 2);
+    --base-indent: 15px; /* Reduced base indent */
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 2px; /* Further reduce spacing after headers */
+    margin-bottom: 2px; /* Reduced spacing after headers */
 }
 
 ul {
-    margin-bottom: 1px; /* Reduce space after list items */
+    margin-bottom: 1px; /* Reduced space after list items */
 }
 
-.experience-education-space {
-    margin-bottom: 1px; /* Adjust this value for smaller space */
+.education-section li {
+    margin-bottom: 1px; /* Further reduced padding for compactness */
 }
 
-.experience-entry {
-    margin-bottom: 2px; /* Adjust this value for balanced space between entries */
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 5px; /* Add margin to avoid overlap */
-}
-
-table, th, td {
-    border: 1px solid black;
-    padding: 3px; /* Adjust padding for table cells */
-}
-
-th, td {
-    text-align: left;
-}
-
-/* Reducing space between contact info and technical skills header */
-header, footer, .header-bar {
-    margin-bottom: 0 !important;
-}
-
-h2, h3 {
-    margin-top: 4px; /* Adjust spacing for headers */
+.education-section {
+    margin-top: 10px; /* Slightly reduced padding between section header and list */
 }
