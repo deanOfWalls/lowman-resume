@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
-    margin: 10px auto; /* Compact overall page */
-    padding: 5px; /* Compact the overall content */
+    margin: 10px auto;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,26 +13,26 @@ body {
 }
 
 .download-button {
-    margin: 5px 0; /* Reduced margin */
+    margin: 5px 0;
     background-color: transparent;
 }
 
 .loading-message {
-    font-size: 16px; /* Slightly smaller font size */
+    font-size: 16px;
     color: #555;
-    margin-top: 10px; /* Reduced margin */
+    margin-top: 10px;
 }
 
 iframe {
     width: 100%;
-    height: calc(100vh - 80px); /* Reduced height offset */
+    height: calc(100vh - 80px);
     border: none;
-    display: none; /* Hide initially until loaded */
+    display: none;
 }
 
 button {
-    padding: 8px 16px; /* Reduced padding */
-    font-size: 14px; /* Slightly smaller font */
+    padding: 8px 16px;
+    font-size: 14px;
     cursor: pointer;
     background-color: #007BFF;
     color: white;
@@ -60,26 +60,28 @@ button:hover {
     display: none;
 }
 
-/* Styles specific to resume content */
-code, pre {
-    font-family: 'Roboto', sans-serif;
-    color: #2f68e1;
-    font-size: 11px; /* Reduced font size */
-    overflow-x: auto;
+ul, li {
+    margin: 0; /* Eliminate unnecessary margins */
+    padding: 0; /* Remove default padding */
+    list-style-position: inside;
 }
 
-ul li a {
-    color: #2f68e1 !important;
+ul {
+    margin-bottom: 5px; /* Reduced spacing between list items */
+}
+
+li {
+    margin-bottom: 3px; /* Further reduce spacing after each item */
 }
 
 .wrapper {
     background-color: white !important;
-    padding: 5px; /* Reduced padding */
+    padding: 5px;
 }
 
 main, .main, .content, .post-content {
     background-color: white;
-    padding: 5px; /* Reduced padding */
+    padding: 5px;
 }
 
 .header, ::before, header h1, footer {
@@ -92,7 +94,11 @@ header, footer {
 
 .content-wrapper {
     background-color: white;
-    padding: 5px; /* Reduced padding */
+    padding: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 2px;
 }
 
 .markdown-body .post-content a {
@@ -114,21 +120,13 @@ header, footer {
 }
 
 :root {
-    --base-indent: 15px; /* Reduced base indent */
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 2px; /* Reduced spacing after headers */
-}
-
-ul {
-    margin-bottom: 1px; /* Reduced space after list items */
+    --base-indent: 15px;
 }
 
 .education-section li {
-    margin-bottom: 1px; /* Further reduced padding for compactness */
+    margin-bottom: 2px; /* Reduced padding between list items */
 }
 
 .education-section {
-    margin-top: 10px; /* Slightly reduced padding between section header and list */
+    margin-top: 10px;
 }
