@@ -67,21 +67,21 @@ ul {
 }
 
 li {
-    margin-bottom: 3px; /* Consistent and moderate spacing between list items */
-    line-height: 1.2; /* Slightly relaxed line spacing for readability */
+    margin-bottom: 3px; /* Moderate spacing between list items */
+    line-height: 1.2; /* Consistent line spacing across sections */
 }
 
 li i {
-    display: inline; /* Keep italicized text inline */
-    line-height: 1.1; /* Relaxed spacing for italicized text */
-    margin-bottom: 2px; /* Consistent small spacing after italicized text */
+    display: inline; /* Ensure italicized text stays inline */
+    line-height: 1; /* Tight line spacing for italicized text */
+    margin-bottom: 1px; /* Minimal space after italicized text */
 }
 
 /* Adjust spacing for italicized text and following bullet points */
 .education-section li i + ul,
 .professional-experience li i + ul,
 .additional-experience li i + ul {
-    margin-top: -3px; /* Normalize spacing between italicized text and bullet points */
+    margin-top: -2px; /* Consistent small spacing between italicized text and bullet points */
 }
 
 /* Wrapper and main content styles */
@@ -109,7 +109,7 @@ header, footer {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 4px; /* Moderate and consistent spacing after headers */
+    margin-bottom: 4px; /* Moderate spacing after headers */
 }
 
 .markdown-body .post-content a {
@@ -137,37 +137,37 @@ h1, h2, h3, h4, h5, h6 {
 .education-section ul,
 .professional-experience ul,
 .additional-experience ul {
-    padding-left: 12px; /* Slightly smaller indent for list sections */
+    padding-left: 12px; /* Consistent small indent for list sections */
 }
 
 .education-section li,
 .professional-experience li,
 .additional-experience li {
-    margin-bottom: 3px; /* Consistent spacing between items across sections */
+    margin-bottom: 3px; /* Consistent spacing across sections */
 }
 
 .education-section li i,
 .professional-experience li i,
 .additional-experience li i {
     display: inline;
-    line-height: 1.1; /* Consistent compact spacing for italicized text */
-    margin-bottom: 2px; /* Moderate spacing after italicized text */
+    line-height: 1; /* Tight line spacing for italicized text */
+    margin-bottom: 1px; /* Minimal space after italicized text */
 }
 
 .education-section li i + ul,
 .professional-experience li i + ul,
 .additional-experience li i + ul {
-    margin-top: -3px; /* Normalize spacing between italicized text and bullet points */
+    margin-top: -2px; /* Tight and consistent spacing */
 }
 
 .education-section {
-    margin-top: 8px; /* Balanced margin above section */
+    margin-top: 8px; /* Balanced spacing above section */
 }
 
 .professional-experience {
-    margin-top: 8px; /* Balanced margin above section */
+    margin-top: 8px; /* Balanced spacing above section */
 }
 
 .additional-experience {
-    margin-top: 8px; /* Balanced margin above section */
+    margin-top: 8px; /* Balanced spacing above section */
 }
