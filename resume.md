@@ -8,7 +8,7 @@ Wilmington, DE • 302-632-9204 • [D.low21@live.com](mailto:D.low21@live.com)
 
 ## Professional Summary
 
-Proactive professional with extensive experience in managing projects, leading teams, and ensuring high standards of productivity and safety. Skilled in coordinating resources, optimizing workflows, and providing reliable solutions in dynamic environments. Proven track record of working effectively both independently and as a team leader to achieve project objectives and enhance operational efficiency.
+Proactive professional with extensive experience in managing projects, leading teams, and ensuring high standards of safety. Skilled in optimizing workflows and providing solutions. Proven ability to work independently or lead teams to achieve objectives efficiently.
 
 ---
 
