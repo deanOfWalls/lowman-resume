@@ -1,6 +1,4 @@
-<div class="header-bar"></div>
 <link rel="stylesheet" type="text/css" media="all" href="./style.css" />
-
 
 # David Lowman  
 Wilmington, DE • 302-632-9204 • [D.low21@live.com](mailto:D.low21@live.com)  
@@ -14,50 +12,57 @@ Proactive professional with extensive experience in managing projects, leading t
 ---
 
 <div class="professional-experience">
-## Professional Experience
+  <h2>Professional Experience</h2>
 
-### Journeyman Electrician  
-*Experienced across multiple roles and companies (2010 - Present)*
+  <h3>Journeyman Electrician</h3>
+  <p><i>Experienced across multiple roles and companies (2010 - Present)</i></p>
 
-**Roles held with**: Chieffo Electric, People Ready, Badger Electric, CLC Staffing, CLP Staffing, Progressive Electric Services, Wanex Electrical Service, Wise Power Systems, Towles Electric
+  <p><b>Roles held with</b>: Chieffo Electric, People Ready, Badger Electric, CLC Staffing, CLP Staffing, Progressive Electric Services, Wanex Electrical Service, Wise Power Systems, Towles Electric</p>
 
-- **Team Leadership**: Directed small teams, assigned tasks, and provided mentorship to ensure productivity and project quality.
-- **Resource Coordination**: Managed project timelines, labor allocation, and materials sourcing to optimize costs and efficiency.
-- **Independent Problem-Solving**: Diagnosed and resolved issues on-site, often with minimal supervision, ensuring client satisfaction and adherence to project specifications.
-- **Communication and Client Relations**: Regularly liaised with clients and supervisors to assess project needs, provide updates, and align on expectations.
-- **Inventory and Cost Management**: Monitored and managed inventory levels, calculated material needs, and tracked project expenditures to stay within budget.
+  <ul>
+    <li><b>Team Leadership</b>: Directed small teams, assigned tasks, and provided mentorship to ensure productivity and project quality.</li>
+    <li><b>Resource Coordination</b>: Managed project timelines, labor allocation, and materials sourcing to optimize costs and efficiency.</li>
+    <li><b>Independent Problem-Solving</b>: Diagnosed and resolved issues on-site, often with minimal supervision, ensuring client satisfaction and adherence to project specifications.</li>
+    <li><b>Communication and Client Relations</b>: Regularly liaised with clients and supervisors to assess project needs, provide updates, and align on expectations.</li>
+    <li><b>Inventory and Cost Management</b>: Monitored and managed inventory levels, calculated material needs, and tracked project expenditures to stay within budget.</li>
+  </ul>
 </div>
 
 ---
 
 <div class="additional-experience">
-### Additional Experience
+  <h2>Additional Experience</h2>
 
-**Warehouse Worker**  
-*Amazon PHL7 – Middletown, DE (2013 - 2014)*  
-- Ensured accurate inventory management and communication of discrepancies.
-- Supported logistics by efficiently loading, unloading, and inspecting shipments for quality.
+  <h3>Warehouse Worker</h3>
+  <p><i>Amazon PHL7 – Middletown, DE (2013 - 2014)</i></p>
+
+  <ul>
+    <li>Ensured accurate inventory management and communication of discrepancies.</li>
+    <li>Supported logistics by efficiently loading, unloading, and inspecting shipments for quality.</li>
+  </ul>
 </div>
 
 ---
 
 <div class="education-section">
-## Education and Certifications
+  <h2>Education and Certifications</h2>
 
-- **Apprenticeship in Electrical Work**  
-  *Polytech Adult Education, Woodside, DE (2007)*  
+  <ul>
+    <li><b>Apprenticeship in Electrical Work</b>  
+        <i>Polytech Adult Education, Woodside, DE (2007)</i></li>
 
-- **Technical Diploma in Electrical Construction**  
-  *Polytech High School, Woodside, DE (2004)*  
+    <li><b>Technical Diploma in Electrical Construction</b>  
+        <i>Polytech High School, Woodside, DE (2004)</i></li>
 
-- **High School Diploma**  
-  *Polytech High School, Woodside, DE (2004)*  
+    <li><b>High School Diploma</b>  
+        <i>Polytech High School, Woodside, DE (2004)</i></li>
 
-- **OSHA 10-Hour Safety Certification**  
-  *Occupational Safety and Health Administration (2019)*  
+    <li><b>OSHA 10-Hour Safety Certification</b>  
+        <i>Occupational Safety and Health Administration (2019)</i></li>
 
-- **State of Delaware Journeyman License**  
-  *State of Delaware (2024–2026)*  
+    <li><b>State of Delaware Journeyman License</b>  
+        <i>State of Delaware (2024–2026)</i></li>
+  </ul>
+
+  <p><a href="certifications.pdf">View Certifications</a></p>
 </div>
-
-[View Certifications](certifications.pdf)
